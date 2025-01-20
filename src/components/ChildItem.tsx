@@ -32,7 +32,6 @@ export const ChildItem = ({ child }: { child: Child }) => {
             "shadow-md even:bg-gray-300 odd:bg-gray-200  px-6 py-4 flex items-center justify-between uppercase text-3xl text-gray-600 font-semibold rounded-lg border-gray-200 cursor-pointer border-solid border-2",
             child.checkedIn && "odd:bg-green-100/80 even:bg-green-200/80"
           )}
-          aria-roledescription="button"
         >
           {fullName}
           {child.checkedIn && <span>CHECKED IN</span>}

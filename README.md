@@ -1,5 +1,6 @@
 # Purpose of the assignment
-The purpose of the assignment is to give us an understanding of how you approach a problem and understand your thought process. 
+
+The purpose of the assignment is to give us an understanding of how you approach a problem and understand your thought process.
 
 Furthermore we would also like to see what you chose to focus on, to get an insight into how you work.
 
@@ -12,16 +13,19 @@ It is ok to Google or use ChatGPT, but you need to inform us via comments in the
 When sending back the task, please send it as a link to your repo and tell us how much time was spent on the task.
 
 ## How to get started
+
 - Fork this repository
 - Create a small application in React
 - Describe your design decisions and setup instructions in the README.md of the forked repository
 
 ## The assignment
+
 You are tasked to build a simple application for a nursery to manage the attendance of children each day.
 
 It has to be done using Typescript.
 
 The application should be able to do 3 things:
+
 1. List children with some form of pagination/lazy-loading/infinite-scroll
 2. Checkin a child
 3. Checkout a child
@@ -52,6 +56,7 @@ curl "https://app.famly.co/api/daycare/tablet/group?accessToken=<accessToken>&gr
 ```
 
 ### Checkin child
+
 ```
 POST https://app.famly.co/api/v2/children/<childId>/checkins
 
@@ -70,6 +75,7 @@ curl \
 ```
 
 ### Checkout child
+
 ```
 POST https://app.famly.co/api/v2/children/<childId>/checkout
 Arguments: {

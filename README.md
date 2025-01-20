@@ -1,3 +1,21 @@
+# Nursery demo
+
+### How to run project
+
+- Install packages using "pnpm install"
+- Add API_KEY in .env
+- Run locally using "pnpm run dev"
+- Navigate [Here](http://localhost:5173/) to view the page
+
+### Further improvements not made
+
+- Show child info in dialog
+- Add child status as icons in overview
+- Create overview page with pagination alternatively to show more button
+- Show child image on overview as avatar
+- add a nice header and footer
+- Testing of pages
+
 # Purpose of the assignment
 
 The purpose of the assignment is to give us an understanding of how you approach a problem and understand your thought process.

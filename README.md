@@ -13,7 +13,8 @@
 - Add child status as icons in overview
 - Create overview page with pagination alternatively to show more button
 - Show child image on overview as avatar
-- add a nice header and footer
+- Qdd a nice header and footer
+- Add loading indicator when checking in and out
 - Testing of pages
 
 # Purpose of the assignment
